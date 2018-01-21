@@ -16,7 +16,7 @@ namespace LiftSimulator
 
         private static void Main(string[] args)
         {
-            args = new[] { "20", "2.5", "0.5", "3.4" };
+            args = new[] { "20", "2.5", "1.5", "3.4" };
             if (!InitializeParametersByArgs(args))
             {
                 Console.ReadLine();

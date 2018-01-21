@@ -74,14 +74,14 @@ namespace LiftSimulator.Entities
             public Chipset(Lift lift)
             {
                 this._mLift = lift;
-                this._mTimePerLevel = (int)(_mLift.Building.LevelHeight / _mLift.LiftSpeed * 100);
+                this._mTimePerLevel = (int)(_mLift.Building.LevelHeight / _mLift.LiftSpeed * 1000);
             }
 
             public void OpenDoor()
             {
                 Thread.Sleep(TimeToOpenDoor);
                 _mLift.OnDoorOpenedEvent.Invoke(_mLift.CurrentLevel);
-                Thread.Sleep((int)(_mLift.DoorTime * 100));
+                Thread.Sleep((int)(_mLift.DoorTime * 1000));
                 Thread.Sleep(TimeToCloseDoor);
                 _mLift.OnDoorClosedEvent.Invoke(_mLift.CurrentLevel);
             }
