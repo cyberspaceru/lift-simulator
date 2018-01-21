@@ -7,8 +7,8 @@ Base Lift Controller has started.<br>
 2<br>
 1/21/2018 3:53:17 PM - [USER ACTION] The lift was called to 2.<br>
 1/21/2018 3:53:18 PM - [LIFT MESSAGE] The lift has arrived. Level: 2.<br>
-11/21/2018 3:53:19 PM - [LIFT MESSAGE] The lift door has opened. Level: 2.<br>
-5<br>
+1/21/2018 3:53:19 PM - [LIFT MESSAGE] The lift door has opened. Level: 2.<br>
+15<br>
 1/21/2018 3:53:19 PM - [USER ACTION] The lift was called to 15.<br>
 1<br>
 1/21/2018 3:53:20 PM - [USER ACTION] The lift was called to 1.<br>
